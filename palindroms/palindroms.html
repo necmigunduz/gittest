@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Palindroms</title>
+    <link href="style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header><h1>Palindroms</h1></header>
+        <!--Form to enter a sentence or a word-->
+        <form class="frm" id="frm1">
+            <!-- Label for entry form -->
+            <label for="fname" id="label">Enter a sentence or word to check whether it is a palindrom or not: </label>
+            <p id="explanation">Please enter your sentence or words without any punctuations!</p>
+            <!-- Input text for entry-->
+            <input id="input1" type="text" value="Enter sentence or word here!" onfocus="this.value=''" />
+            <!-- Submit button-->
+            <input id="resultBtn" type="button" name="clickbtn" value="Display Result" onclick="result()"  />
+            <!--Reset button-->
+            <input type="button" onclick="reset()" value="Reset form" />
+        </form>
+        
+        <br><br><br><br><br>
+        <!-- Result input text -->
+        <form class="frm" id="frm2" style="text-align: center;">
+            <label>Result</label>
+            <p id="col">Your Result is Here!</p>
+        </form>
+        <br>            
+        <script src="Untitled.js"></script>
+    </body>
+    
+</html>
